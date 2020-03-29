@@ -21,6 +21,19 @@
 	<div class="preloader">
 	</div>
 
+	<form class="zoom-anim-dialog mfp-hide" id="form-callback" method="post">
+        <div class="success"><span>Спасибо за заявку!</span></div>
+        <input type="hidden" name="project_name" value="Aleksa">
+        <input type="hidden" name="admin_email" value="wakin@tut.by">
+        <input type="hidden" name="form_subject" value="Заявка с сайта">
+        <div class="form-header">Оставить Заявку</div>
+        <p class="header-callback__text">Оставьте заявку и мы тут же с вами свяжемся</p>
+        <input class="input__callback" type="text" name="Имя" placeholder="Ваше имя..." required>
+        <input class="input__callback" type="text" name="Телефон" placeholder="Ваш телефон..." required>
+        <button class="g-btn">Отправить</button>
+
+    </form>
+
 	<header>
 		<div class="top-line">
 			<a class="logo" href="index.html"><img src="images/dest/logo.svg" alt="logo"></a>
@@ -36,6 +49,7 @@
 				<h1>coloring & hair style</h1>
 				<div></div>
 				<p>создатели совершенных образов</p>
+				<a class="order-button popup-with-form" href="#form-callback">оставить заявку</a>
 			</div>
 		</div>
 	</header>
@@ -56,22 +70,22 @@
 		</div>
 
 		<div class="owl-carousel owl-theme">
-			<div class="item">
+			<a class="item image-popup-no-margins" href="images/dest/1.jpg">
 				<img src="images/dest/1.jpg" alt="">
 				<p class="portfolio-text">балаяж</p>
-			</div>
-			<div class="item">
+			</a>
+			<a class="item image-popup-no-margins" href="images/dest/5.2.jpg">
 				<img src="images/dest/5.2.jpg" alt="">
 				<p class="portfolio-text">pixi с удленной челкой</p>
-			</div>
-			<div class="item">
+			</a>
+			<a class="item image-popup-no-margins" href="images/dest/4.jpg">
 				<img src="images/dest/4.jpg" alt="">
 				<p class="portfolio-text">стрижка cascad</p>
-			</div>
-			<div class="item">
+			</a>
+			<a class="item image-popup-no-margins" href="images/dest/7.jpg">
 				<img src="images/dest/7.jpg" alt="">
 				<p class="portfolio-text">Омбре</p>
-			</div>
+			</a>
 		</div>
 	</section>
 
